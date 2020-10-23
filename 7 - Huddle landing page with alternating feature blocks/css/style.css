@@ -1,0 +1,446 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+/*
+ * This is header section
+*/
+header{
+    height: 1435px;
+    background: url('/images/bg-hero-mobile.svg');
+    background-color: hsl(193, 100%, 96%);
+}
+nav.logo{
+    margin: auto;
+    padding-top: 48px;
+    width: calc(100% - 64px);
+    display: flex;
+    justify-content: space-between;
+}
+nav button{
+    width: 195px;
+    height: 48px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.25);
+}
+nav img{
+    width: 210px;
+}
+.header-description{
+    width: calc(100% - 160px);
+    margin: auto;
+    height: 1267px;
+    padding-top: 180px;
+    font-size: 22px;
+}
+.header-description p{
+    padding: 72px 0px 70px;
+    font-size: 30px;
+}
+.header-description button{
+    height: 80px;
+    max-width: 480px;
+    width: 100%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 113px;
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px -7px rgba(0,0,0,0.35);
+}
+.header-description img{
+    max-height: 418px;
+    max-width: 100%;
+}
+/*
+ * This is main section
+*/
+main{
+    height: 3092px;
+    margin: 115px 0 458px;
+}
+section{
+    height: 977.33px;
+    width: calc(100% - 160px);
+    margin: 0 auto 80px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 0px 20px -7px rgba(0,0,0,0.35);
+    font-size: 28px;
+}
+section img{
+    width: calc(100% - 200px);
+    padding: 115px 0 125px;
+}
+.subsection-description p{
+    padding-top: 44px;
+    width: calc(100% - 160px);
+    margin: auto;
+    font-size: 24px;
+    color: hsl(208, 11%, 55%);
+}
+aside{
+    height: 352px;
+    width: calc(100% - 48px);
+    margin: auto;
+    transform: translateY(40%);
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 0px 20px -7px rgba(0,0,0,0.35);
+    background-color: #fff;
+}
+aside h2{
+    padding: 100px 0 52px;
+    font-size: 38px;
+}
+aside button{
+    height: 80px;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    font-family: inherit;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px -7px rgba(0,0,0,0.35);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+/*
+ * This is footer section
+*/
+footer{
+    height: 1703px;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+}
+.box-container{
+    width: calc(100% - 48px);
+    margin: auto;
+    padding-top: 275px;
+    text-align: left;
+}
+.box-1{
+    height: 60px;
+    margin-bottom: 50px;
+}
+.box-1 img{
+    filter: brightness(0) invert(1);
+    height: 54px;
+}
+
+.subbox-1{
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.row-1{
+    height: 180px;
+}
+.row-2, .row-3{
+    height: 40px;
+}
+.row-1, .row-2, .row-3{
+    display: flex;
+    justify-content: space-between;
+}
+.column-1{
+    width: 48px;
+}
+.column-2{
+    width: 590px;
+    font-size: 30px;
+}
+.icon-location{
+    height: 38px;
+}
+.icon-phone{
+    height: 36px;
+}
+.icon-email{
+    height: 32px;
+}
+
+.subbox-2{
+    margin-top: 125px;
+    margin-bottom: 115px;
+}
+.sub-navigation a{
+    display: block;
+    margin-bottom: 58px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.subbox-3{
+    width: 240px;
+    margin: 0 auto;
+}
+.footer-social{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.fa-stack{
+    font-size: 32px;
+}
+.box-3{
+    margin-top: 56px;
+    height: 16px;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media screen and (max-width: 650px){
+    h1{
+        font-size: 40px;
+    }
+    nav.logo{
+        width: calc(100% - 32px);
+    }
+    nav img{
+        width: 45%;
+    }
+    nav button{
+        width: 40%;
+    }
+    .header-description{
+        width: calc(100% - 80px);
+    }
+    section{
+        width: calc(100% - 80px);
+        font-size: 6vw;
+    }
+    section img{
+        width: 100%;
+    }
+    .subsection-description p{
+        width: calc(100% - 80px);
+        font-size: 5vw;
+    }
+    .row-1, .row-2, .row-3{
+        display: flex;
+        justify-content: flex-start;
+    }
+    aside{
+        width: calc(100% - 24px);
+    }
+    aside h2{
+        font-size: 6vw;
+    }
+    aside button{
+        width: 80%;
+    }
+    footer p{
+        font-size: 5vw;
+    }
+    footer img{
+        max-height: 40px;
+    }
+    .box-3 p{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 751px){
+    .header-description img{
+        width: 650px;
+    }
+    .row-1, .row-2, .row-3{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .column-2{
+    width: 625px;
+    }
+}
+@media screen and (min-width: 1024px){
+    main{
+        height: 1403px;
+        margin: 160px 0 345px;
+    }
+    section{
+        height: 443.5px;
+        width: calc(100% - 100px);
+        margin: 0 auto 36px;
+        font-size: 28px;
+        display: flex;
+        padding: 55px 35px 55px 120px;
+        text-align: left;
+    }
+    section img{
+        width: 405px;
+        height: 335px;
+        padding: 0;
+        order: 1;
+    }
+    .subsection-description p{
+        padding-top: 44px;
+        width: calc(100% - 80px);
+        margin-right: 190px;
+        font-size: 24px;
+    }
+    .subsection-description{
+        align-self: center;
+    }
+}
+@media screen and (min-width: 1440px){
+    header{
+        height: 720px;
+        background: url('/images/bg-hero-desktop.svg');
+        background-color: hsl(193, 100%, 96%);
+    }
+    nav.logo{
+        margin: auto;
+        width: calc(100% - 160px);
+    }
+    .header-description{
+        height: 555px;
+        padding-top: 70px;
+        font-size: 1.45vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-description button{
+        height: 52px;
+        max-width: 280px;
+        width: 100%;
+    }
+    .subheader-description{
+        max-width: 590px;
+        text-align: left;
+        align-self: center;
+    }
+    .header-description img{
+        min-height: 485px;
+    }
+    .header-description p{
+        padding: 52px 0px 36px;
+        font-size: 18px;
+    }
+    section img.alternate{
+        order: 0;
+        margin-right: 165px;
+    }
+    section.alternate p{
+        margin: 0;
+        width: 100%;
+    }
+    aside{
+        width: calc(100% - 640px);
+        height: 280px;
+        transform: translateY(35%);
+    }
+    aside h2{
+        padding: 78px 0 40px;
+        font-size: 1.8em;
+    }
+    footer{
+        height: 556px;
+    }
+    .box-container{
+        width: 1240px;
+        height: 500px;
+        padding-top: 195px;
+        margin-left: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .box-1{
+        height: 40px;
+        margin-bottom: 0px;
+    }
+    .box-1 img{
+        height: 40px;
+    }
+    .box-2{
+        height: 170px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .subbox-1{
+        width: 365px;
+        height: inherit;
+    }
+    .row-1{
+        height: 75px;
+    }
+    .row-2, .row-3{
+        height: 25px;
+    }
+    .row-1, .row-2, .row-3{
+        justify-content: space-between;
+    }
+    .column-1{
+        width: 25px;
+    }
+    .column-2{
+        width: 325px;
+        font-size: 16px;
+    }
+    .icon-location{
+        height: 20px;
+    }
+    .icon-phone{
+        height: 20px;
+    }
+    .icon-email{
+        height: 16px;
+    }
+
+    .subbox-2{
+        width: 325px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .footer-navigation{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sub-navigation a{
+        margin-bottom: 26px;
+        font-size: 18px;
+    }
+    
+    .subbox-3{
+        width: 260px;
+        margin: 0;
+    }
+    .footer-social{
+        width: 120px;
+    }
+    .fa-stack{
+        font-size: 16px;
+    }
+    .box-3{
+        height: 16px;
+        font-size: 12px;
+        text-align: right;
+        margin-top: 0px;
+    }
+}
